@@ -36,7 +36,7 @@ console.log(fibonacci(7)); // ==> 13
 console.log(fibonacci(10)); // ==> 55
 console.log(fibonacci(13)); // ==> 233
 
-//another different solution when I create the sequence with numbers until n number (returning an array but can also return the number itself):
+//another different solution when I created the sequence with numbers until n number (returning an array but can also return the number itself):
 const fibonacci2 = (n) => {
   let fibArray = [1, 1];
   if (n <= 1) {
