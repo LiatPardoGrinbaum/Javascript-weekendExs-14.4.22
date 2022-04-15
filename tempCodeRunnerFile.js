@@ -1,1 +1,1 @@
- // }
+  // let weirdStr = wordsArrWeird.join(" ");
