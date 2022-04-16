@@ -13,6 +13,12 @@ The second value in the first integer array is 0, since the bus is empty in the 
 
 //solution
 const peopleOnTheBus = (array) => {
+  if (array === null || array.length === 0) {
+    return "not a valid input";
+  }
+  if (array[0][1] !== 0) {
+    return "invalid input. the bus is empty in the first bus stop";
+  }
   let peopleLeft = 0;
   array.forEach((list) => {
     peopleLeft += list[0] - list[1];
@@ -41,3 +47,13 @@ const array2 = [
 ];
 
 console.log(peopleOnTheBus(array2)); ///=> 2
+
+//testing3 - invalid input
+const array3 = [
+  [3, 2],
+  [1, 2],
+  [0, 2],
+  [4, 2],
+];
+
+console.log(peopleOnTheBus(array3)); ///=> invalid input. the bus is empty in the first bus stop
