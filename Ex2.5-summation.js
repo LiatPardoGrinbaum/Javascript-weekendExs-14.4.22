@@ -16,3 +16,19 @@ console.log(summation(5)); //should return 15
 console.log(summation(8)); //should return 36
 console.log(summation(10)); //should return 55
 console.log(summation(15)); //should return 120
+
+//------------------------------------------------------------
+//another way, using aritmetic seria
+
+const summation2 = (num) => {
+  let sum = (num / 2) * (num + 1);
+  return sum;
+};
+
+//testing:
+console.log("second solution:");
+console.log(summation2(2)); //should return 3
+console.log(summation2(5)); //should return 15
+console.log(summation2(8)); //should return 36
+console.log(summation2(10)); //should return 55
+console.log(summation2(15)); //should return 120

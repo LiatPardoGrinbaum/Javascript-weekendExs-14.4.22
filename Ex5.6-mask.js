@@ -19,3 +19,4 @@ console.log(maskify("64607935616")); // ==> #######5616
 console.log(maskify("4556364607935616")); // ==> ############5616
 console.log(maskify("456")); // ==> 456
 console.log(maskify("1234674")); // ==> ###4674
+console.log(maskify("q   wehes")); // ==> #####ehes

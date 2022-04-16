@@ -1,3 +1,5 @@
+/* There is an array with some numbers. All numbers are equal except for one. Try to find it! */
+
 const findUniq = (numArray) => {
   let uniq = 0;
   numArray.forEach((num, idx) => {

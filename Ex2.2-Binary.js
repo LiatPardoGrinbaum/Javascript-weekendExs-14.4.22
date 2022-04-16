@@ -1,3 +1,5 @@
+/* Given an array of ones and zeroes, convert the equivalent binary value to an integer. */
+
 const binaryToInt = (array) => {
   array.reverse();
   let integer = 0;

@@ -43,7 +43,7 @@ const fibonacci2 = (n) => {
     return 1;
   } else {
     for (i = 2; i < n; i++) {
-      fibNum = fibArray[i - 1] + fibArray[i - 2];
+      let fibNum = fibArray[i - 1] + fibArray[i - 2];
       fibArray.push(fibNum);
     }
   }
